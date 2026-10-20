@@ -28,7 +28,7 @@ python tts_gui_tool.py
 进入 `tts_gui_tool` 目录，在终端中执行以下命令：
 
 ```bash
-pyinstaller --noconfirm --onefile --windowed --distpath="./release_bin" --workpath="./build" --specpath="./" --name "icoolkj TTS工具" tts_gui_tool.py
+pyinstaller --noconfirm --onefile --windowed --distpath="./release_bin" --workpath="./build" --specpath="./" --add-data "bin/ffmpeg.exe;bin/" --name "icoolkj TTS工具" tts_gui_tool.py
 ```
 
 打包完成后，可在 `release_bin` 目录中找到生成的 EXE 文件。
