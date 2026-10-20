@@ -1,0 +1,31 @@
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# 程序运行输出文件
+output/
+temp/
+
+# 二进制程序（不提交exe、ffmpeg等大二进制）
+release_bin/**/*.exe
+release_bin/**/*.ffmpeg
+release_bin/**/*.dll
+# 保留release_bin内说明文档
+!release_bin/**/*.md
+!release_bin/**/*.txt
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# 系统文件
+.DS_Store
+Thumbs.db
