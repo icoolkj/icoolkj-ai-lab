@@ -29,3 +29,6 @@ release_bin/**/*.dll
 # 系统文件
 .DS_Store
 Thumbs.db
+
+tts_gui_tool/bin/ffmpeg.exe
+
