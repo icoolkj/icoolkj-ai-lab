@@ -31,4 +31,5 @@ release_bin/**/*.dll
 Thumbs.db
 
 tts_gui_tool/bin/ffmpeg.exe
+duck_image_gen/release_bin/config.json
 
